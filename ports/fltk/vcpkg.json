@@ -29,7 +29,52 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
-    "zlib"
+    "zlib",
+    {
+      "name": "wayland",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "mesa",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "dbus",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "libxkbcommon",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "egl",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "egl",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "opengl",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "pango",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "gtk3",
+      "default-features": false,
+      "platform": "linux"
+    }
   ],
   "default-features": [
     "opengl"
@@ -39,23 +84,6 @@
       "description": "OpenGL support",
       "dependencies": [
         "opengl"
-      ]
-    },
-    "python": {
-      "description": "Enable Python bindings",
-      "dependencies": [
-        "python3",
-        {
-          "name": "python3",
-          "host": true
-        }
-      ]
-    },
-    "x11": {
-      "description": "Build with X11 autolaunch support",
-      "supports": "!windows",
-      "dependencies": [
-        "libx11"
       ]
     }
   }

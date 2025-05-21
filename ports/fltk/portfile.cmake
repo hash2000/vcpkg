@@ -1,7 +1,3 @@
-if(VCPKG_TARGET_IS_LINUX OR VCPKG_TARGET_IS_OSX)    
-    message(WARNING "${PORT} currently requires the following libraries from the system package manager:\napt install -y libasound2-dev libglu1-mesa-dev libwayland-dev wayland-protocols libdbus-1-dev libxkbcommon-dev libegl-dev libopengl-dev libpango1.0-dev libgtk-3-dev")
-endif()
-
 # FLTK has many improperly shared global variables that get duplicated into every DLL
 vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 

@@ -56,11 +56,6 @@
       "platform": "linux"
     },
     {
-      "name": "egl",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
       "name": "opengl",
       "default-features": false,
       "platform": "linux"

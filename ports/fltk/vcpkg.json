@@ -31,7 +31,7 @@
     },
     "zlib",
     {
-      "name": "libxft",
+      "name": "mesa",
       "default-features": false,
       "platform": "linux"
     },

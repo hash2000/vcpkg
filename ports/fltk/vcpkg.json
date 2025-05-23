@@ -64,19 +64,6 @@
       "name": "pango",
       "default-features": false,
       "platform": "linux"
-    },
-    {
-      "name": "gtk3",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
-      "name": "glslang",
-      "default-features": false,
-      "platform": "linux",
-      "features": [
-        "tools"
-      ]
     }
   ],
   "default-features": [

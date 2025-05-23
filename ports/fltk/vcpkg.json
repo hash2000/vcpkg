@@ -31,21 +31,6 @@
     },
     "zlib",
     {
-      "name": "wayland",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
-      "name": "mesa",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
-      "name": "dbus",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
       "name": "libxkbcommon",
       "default-features": false,
       "platform": "linux"

@@ -29,27 +29,7 @@
       "name": "vcpkg-cmake-config",
       "host": true
     },
-    "zlib",
-    {
-      "name": "mesa",
-      "default-features": false,
-      "platform": "linux",
-      "features": [
-        "egl",
-        "gles1",
-        "gles2"
-      ]
-    },
-    {
-      "name": "libxkbcommon",
-      "default-features": false,
-      "platform": "linux"
-    },
-    {
-      "name": "pango",
-      "default-features": false,
-      "platform": "linux"
-    }
+    "zlib"
   ],
   "default-features": [
     "opengl"

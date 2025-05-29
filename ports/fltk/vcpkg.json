@@ -60,10 +60,17 @@
     },
     {
       "name": "sdl3",
+      "default-features": false,
+      "platform": "linux",
       "features": [
         "wayland",
         "x11"
       ]
+    },
+    {
+      "name": "gtk3",
+      "default-features": false,
+      "platform": "linux"
     }
   ],
   "default-features": [

@@ -30,6 +30,7 @@
       "host": true
     },
     "zlib",
+    "libx11",
     "libxft"
   ],
   "default-features": [

@@ -30,6 +30,7 @@
       "host": true
     },
     "zlib",
+    "wayland",
     "libx11",
     "libxft"
   ],

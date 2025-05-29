@@ -30,9 +30,41 @@
       "host": true
     },
     "zlib",
-    "wayland",
-    "libx11",
-    "libxft"
+    {
+      "name": "wayland",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "libx11",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "libxft",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "dbus",
+      "default-features": false,
+      "platform": "linux",
+      "features": [
+        "x11"
+      ]
+    },
+    {
+      "name": "pango",
+      "default-features": false,
+      "platform": "linux"
+    },
+    {
+      "name": "sdl3",
+      "features": [
+        "wayland",
+        "x11"
+      ]
+    }
   ],
   "default-features": [
     "opengl"
